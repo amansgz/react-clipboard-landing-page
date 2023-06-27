@@ -1,11 +1,12 @@
 import Header from "./components/Header";
 import Access from "./components/Access";
-
+import Clients from "./components/Clients";
 
 const App = () => (
   <>
     <Header />
     <Access />
+    <Clients />
   </>
 );
 

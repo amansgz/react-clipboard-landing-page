@@ -51,22 +51,27 @@ export const clients = [
   {
     id: "client-1",
     logo: logoGoogle,
+    alt: "Google"
   },
   {
     id: "client-2",
     logo: logoIbm,
+    alt: "Ibm"
   },
   {
     id: "client-3",
     logo: logoMicrosoft,
+    alt: "Microsoft"
   },
   {
     id: "client-4",
     logo: logoHp,
+    alt: "Hewlett Packard"
   },
   {
-    id: "client-4",
+    id: "client-5",
     logo: logoVectorGraphics,
+    alt: "Vector Graphics"
   }
 ];  
   

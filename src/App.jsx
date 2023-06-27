@@ -1,9 +1,12 @@
 import Header from "./components/Header";
+import Access from "./components/Access";
 
 
 const App = () => (
-  
-  <Header />
+  <>
+    <Header />
+    <Access />
+  </>
 );
 
 export default App;
@@ -14,17 +17,8 @@ Keep track of your snippets
   meaning you can access your snippets immediately on all your 
   devices. Our Mac and iOS apps will help you organize everything.
 
-
-
   ---
 
-
-  Access Clipboard anywhere
-
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
-
----
   Supercharge your workflow
 
   We’ve got the tools to boost your productivity.

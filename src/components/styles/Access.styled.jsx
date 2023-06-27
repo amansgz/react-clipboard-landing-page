@@ -13,7 +13,7 @@ export const Title = styled.h2`
 `
 export const Text = styled.p`
 	width: 82vw;
-	max-width: 650px;
+	max-width: 665px;
 	padding: 1em 0;
 `
 export const Image = styled.picture`

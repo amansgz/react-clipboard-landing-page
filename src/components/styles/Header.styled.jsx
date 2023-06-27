@@ -30,6 +30,6 @@ export const Title = styled.h1`
 `
 export const Text = styled.p`
 	width: 82vw;
-	max-width: 570px;
+	max-width: 605px;
 	padding: 1em 0;
 `

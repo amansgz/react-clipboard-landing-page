@@ -7,8 +7,8 @@ export const  COLORS = {
 
 export const SIZES = {
 	fs1: 'clamp(28px, 3vw, 38px)',
-	fs2: 'clamp(18px, 2vw, 32px)',
-	fs3: 'clamp(16px, 2vw, 20px)',
+	fs2: 'clamp(20px, 3vw, 32px)',
+	fs3: 'clamp(16px, 2vw, 18px)',
 	fs4: 'clamp(14px, 1vw, 16px)'
 };
 

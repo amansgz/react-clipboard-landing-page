@@ -25,6 +25,7 @@ export const GlobalStyle = createGlobalStyle `
 		color: ${COLORS.neutral1};
 	}
 	p {
+		font-size: ${SIZES.fs3};
 		color: ${COLORS.neutral2};
 		line-height: 1.5;
 	}

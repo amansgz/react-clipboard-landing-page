@@ -9,6 +9,10 @@ export const GlobalStyle = createGlobalStyle `
 		margin: 0;
 		box-sizing: border-box;
 	}
+	body {
+		font-family: 'Bai Jamjuree', sans-serif;
+		line-height: 1.3;
+	}
 	h1 {
 		font-size: ${SIZES.fs1};
 	}
@@ -22,6 +26,7 @@ export const GlobalStyle = createGlobalStyle `
 	}
 	p {
 		color: ${COLORS.neutral2};
+		line-height: 1.5;
 	}
 	picture {
 		display: block;
@@ -31,6 +36,4 @@ export const GlobalStyle = createGlobalStyle `
 		width: 100%;
 		object-fit: cover;
 	}
-
 `
-

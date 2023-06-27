@@ -5,28 +5,31 @@ export const StyledHeader = styled.header`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
+	padding: 4em 1em;
+	
 	text-align: center;
 	background-color: #FFF;
-	background-image: url(../assets/bg-header-mobile.png);
+	background-image: url(../src/assets/bg-header-mobile.png);
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: bottom center;
 	background-size: cover;
-	border: 1px solid blue;
 
-	picture {
-		width: 10vw;
+	@media (min-width: 768px) {
+		background-image: url(../src/assets/bg-header-desktop.png);
 	}
-	h1 {
-		width: 70vw;
-	}
-	p {
-		width: 72vw;
-		max-width: 490px;
-	}
-	div {
-		@media (min-width: 768px) {
-			display: flex;
-		}
-	}
+`
+export const Logo = styled.picture`
+	width: 25vw;
+	max-width: 160px;
+	padding: 3em 0;
+`
+export const Title = styled.h1`
+	width: 75vw;
+	font-weight: 600;
+`
+export const Text = styled.p`
+	width: 82vw;
+	max-width: 570px;
+	padding: 1em 0;
 `

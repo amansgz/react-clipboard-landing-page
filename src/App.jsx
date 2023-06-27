@@ -1,12 +1,14 @@
 import Header from "./components/Header";
 import Access from "./components/Access";
 import Clients from "./components/Clients";
+import Download from "./components/Download";
 
 const App = () => (
   <>
     <Header />
     <Access />
     <Clients />
+    <Download />
   </>
 );
 
@@ -27,17 +29,7 @@ Keep track of your snippets
 
 features
   ---
-
-  clients
-
-  ---
-    Clipboard for iOS and Mac OS
-
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
-
-  Download for iOS
-  Download for Mac
+    
 
   ---
   footer

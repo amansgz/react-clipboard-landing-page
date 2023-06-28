@@ -16,8 +16,7 @@ export const StyledWorkflow = styled.section`
 			gap: 1em;
 			margin: 3em 0;
 		}		
-	}	
-	
+	}
 `
 export const Title = styled.h2`
 	width: 60vw;
@@ -34,7 +33,6 @@ export const Feature = styled.article`
 	justify-content: center;
 	gap: 1em;
 	text-align: center;
-
 `
 export const Icon = styled.picture`
 	width: 10vw;

@@ -3,7 +3,6 @@ import { COLORS } from "./values";
 
 export const Button = styled.button`
 	width: 80vw;
-	max-width: 180px;
 	padding: 1em 2.5em;
 	margin: .8em;
 	border: none;
@@ -15,6 +14,9 @@ export const Button = styled.button`
 	&:hover,
 	&:focus {
 		opacity: 0.8;
+	}
+	@media (min-width: 600px) {
+		max-width: 180px;
 	}
 `
 export const ButtonsBox = styled.div`

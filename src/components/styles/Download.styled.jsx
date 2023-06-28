@@ -6,7 +6,7 @@ export const StyledDownload = styled.section`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 3em 2em;
+	padding: 6em 2em;
 	text-align: center;
 `
 export const Title = styled.h2`

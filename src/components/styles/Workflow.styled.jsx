@@ -14,7 +14,7 @@ export const StyledWorkflow = styled.section`
 			flex-wrap: wrap;
 			justify-content: center;
 			gap: 1em;
-			margin: 3em 0;
+			margin: 2em 0;
 		}		
 	}
 `

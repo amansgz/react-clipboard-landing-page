@@ -18,6 +18,8 @@ export const Button = styled.button`
 	}
 `
 export const ButtonsBox = styled.div`
+	margin-top: 1.5em;
+
 	@media (min-width: 768px) {
 		display: flex;
 	}

@@ -5,7 +5,7 @@ export const StyledAccess = styled.section`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 3em 2em;
+	padding: 5em 2em 2em;
 	text-align: center;
 `
 export const Title = styled.h2`

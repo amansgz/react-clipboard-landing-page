@@ -10,13 +10,13 @@ export const StyledHeader = styled.header`
 	
 	text-align: center;
 	background-color: #FFF;
-	background-image: url(../src/assets/bg-header-mobile.png);
+	background-image: url(../assets/bg-header-mobile.png);
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-size: contain;
 
 	@media (min-width: 768px) {
-		background-image: url(../src/assets/bg-header-desktop.png);
+		background-image: url(../assets/bg-header-desktop.png);
 	}
 `
 export const Logo = styled.picture`

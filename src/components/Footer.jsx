@@ -1,6 +1,7 @@
-import { StyledFooter, Logo, ListLinks, ListSocialLinks } from "./styles/Footer.styled";
-import { footerLinks, socialMedia } from "../constants"; 
+import { StyledFooter, Logo, ListLinks } from "./styles/Footer.styled";
 import { logo } from "../assets";
+import SocialLinks from "./SocialLinks";
+
 
 const Footer = () => (
 	<StyledFooter>
@@ -33,15 +34,7 @@ const Footer = () => (
     	</div>
     </ListLinks>
 
-    <ListSocialLinks>
-    	{socialMedia.map((item, index) => (
-    		<li key= {item.id}>
-    			<a href="">
-    				<img src= {item.icon} alt=""/>
-    			</a>
-    		</li>	
-    	))}
-    </ListSocialLinks>
+    <SocialLinks />
     
 	</StyledFooter>
 );

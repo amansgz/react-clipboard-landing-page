@@ -1,4 +1,4 @@
-import { iconBlacklist, iconText, iconPreview, logoGoogle, logoIbm, logoMicrosoft, logoHp, logoVectorGraphics, iconFacebook, iconTwitter, iconInstagram } from "../assets";
+import { iconBlacklist, iconText, iconPreview, logoGoogle, logoIbm, logoMicrosoft, logoHp, logoVectorGraphics } from "../assets";
 
 export const snippets = [
   {
@@ -72,48 +72,5 @@ export const clients = [
     id: "client-5",
     logo: logoVectorGraphics,
     alt: "Vector Graphics"
-  }
-];  
-  
-  
-
-export const footerLinks = [
-  {
-    name: "FAQs",
-    link: "",
-  },
-  {
-    name: "Contact Us",
-    link: "",
-  },
-  {
-    name: "Privacy Policy",
-    link: "",
-  },
-  {
-    name: "Press Kit",
-    link: "",
-  },
-  {
-    name: "Install Guide",
-    link: "",
-  },
-];
-
-export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: iconFacebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: iconTwitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: iconInstagram,
-    link: "https://www.instagram.com/",
   }
 ];

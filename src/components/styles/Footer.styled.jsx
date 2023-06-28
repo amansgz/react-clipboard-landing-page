@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { COLORS } from "./values";
 
+
 export const StyledFooter = styled.footer`
 	display: flex;
 	flex-direction: column;
@@ -35,17 +36,11 @@ export const ListLinks = styled.ul`
 			margin-right: 4em;
 		}	
 	}
+	a {
+		transition: color .1s ease;
+	}
 	a:hover,
 	a:focus {
 		color: ${COLORS.primary1};
-	}
-`
-
-export const ListSocialLinks = styled.ul`
-	display: flex;
-	margin-top: 1.5em;
-
-	li {
-		margin: 1em;
 	}
 `

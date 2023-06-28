@@ -7,8 +7,9 @@ export const StyledClients = styled.section`
 	justify-content: center;
 	padding: 3em;
 
-	@media (min-width: 768px) {
+	@media (min-width: 600px) {
 		flex-direction: row;
+		flex-wrap: wrap;
 	}
 `
 export const Logo = styled.picture`

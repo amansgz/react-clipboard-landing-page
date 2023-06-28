@@ -4,6 +4,7 @@ import Access from "./components/Access";
 import Clients from "./components/Clients";
 import Download from "./components/Download";
 import Workflow from "./components/Workflow";
+import Footer from "./components/Footer";
 
 const App = () => (
   <>
@@ -13,6 +14,7 @@ const App = () => (
     <Workflow />
     <Clients />
     <Download />
+    <Footer />
   </>
 );
 

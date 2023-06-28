@@ -2,7 +2,8 @@ export const  COLORS = {
 	primary1: 'hsl(171, 66%, 44%)',
 	primary2: 'hsl(233, 100%, 69%)',
 	neutral1: 'hsl(210, 10%, 33%)',
-	neutral2: 'hsl(201, 11%, 66%)'
+	neutral2: 'hsl(201, 11%, 66%)',
+	neutral3: 'hsl(201, 11%, 95%)'
 };
 
 export const SIZES = {

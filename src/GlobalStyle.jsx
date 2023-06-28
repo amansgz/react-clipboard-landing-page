@@ -42,4 +42,12 @@ export const GlobalStyle = createGlobalStyle `
 		width: 100%;
 		object-fit: cover;
 	}
+	ul {
+		list-style-type: none;
+	}
+	a {
+		text-decoration: none;
+		color: ${COLORS.neutral1};
+	}
+	
 `

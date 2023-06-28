@@ -10,6 +10,8 @@ export const GlobalStyle = createGlobalStyle `
 		box-sizing: border-box;
 	}
 	body {
+		max-width: 1440px;
+		margin: auto;
 		font-family: 'Bai Jamjuree', sans-serif;
 		line-height: 1.3;
 	}

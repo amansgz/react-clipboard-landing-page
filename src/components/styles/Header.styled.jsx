@@ -12,8 +12,8 @@ export const StyledHeader = styled.header`
 	background-color: #FFF;
 	background-image: url(../src/assets/bg-header-mobile.png);
 	background-repeat: no-repeat;
-	background-position: bottom center;
-	background-size: cover;
+	background-position: center 0px;
+	background-size: contain;
 
 	@media (min-width: 768px) {
 		background-image: url(../src/assets/bg-header-desktop.png);

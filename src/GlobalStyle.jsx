@@ -16,16 +16,19 @@ export const GlobalStyle = createGlobalStyle `
 	h1 {
 		font-size: ${SIZES.fs1};
 	}
-	h2 {
+	h2{
 		font-size: ${SIZES.fs2};
 	}
-
+	h3 {
+		font-size: ${SIZES.fs3};	
+	}
 	h1, 
-	h2 {		
+	h2,
+	h3 {		
 		color: ${COLORS.neutral1};
 	}
 	p {
-		font-size: ${SIZES.fs3};
+		font-size: ${SIZES.fs4};
 		color: ${COLORS.neutral2};
 		line-height: 1.5;
 	}

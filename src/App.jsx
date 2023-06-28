@@ -2,11 +2,13 @@ import Header from "./components/Header";
 import Access from "./components/Access";
 import Clients from "./components/Clients";
 import Download from "./components/Download";
+import Workflow from "./components/Workflow";
 
 const App = () => (
   <>
     <Header />
     <Access />
+    <Workflow />
     <Clients />
     <Download />
   </>
@@ -21,10 +23,6 @@ Keep track of your snippets
   devices. Our Mac and iOS apps will help you organize everything.
 
   ---
-
-  Supercharge your workflow
-
-  We’ve got the tools to boost your productivity.
 
 
 features

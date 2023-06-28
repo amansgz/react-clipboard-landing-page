@@ -33,6 +33,14 @@ export const Feature = styled.article`
 	justify-content: center;
 	gap: 1em;
 	text-align: center;
+
+	&:nth-child(3) {
+		padding-top: .8em;
+	}	
+
+	@media (min-width: 768px) {
+		justify-content: flex-start;
+	}
 `
 export const Icon = styled.picture`
 	width: 10vw;

@@ -19,6 +19,7 @@ const Workflow = () => (
 					<FeatureTitle>
 						{feature.title}
 					</FeatureTitle>
+				
 					<FeatureText>
 						{feature.content}
 					</FeatureText>

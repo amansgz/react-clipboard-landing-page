@@ -5,19 +5,19 @@ export const snippets = [
     id: "snippet-1",
     title: "Quick Search",
     content:
-      "  Easily search your snippets by content, category, web address, application, and more.",
+      "Easily search your snippets by content, category, web address, application, and more.",
   },
   {
     id: "snippet-2",
-    title: "  iCloud Sync",
+    title: "iCloud Sync",
     content:
-      "  Instantly saves and syncs snippets across all your devices.",
+      "Instantly saves and syncs snippets across all your devices.",
   },
   {
     id: "snippet-3",
-    title: "  Complete History",
+    title: "Complete History",
     content:
-      "  Retrieve any snippets from the first moment you started using the app.",
+      "Retrieve any snippets from the first moment you started using the app.",
   },
 ];
 

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { COLORS } from "./values";
 
+
 export const StyledHeader = styled.header`
 	display: flex;
 	flex-direction: column;
@@ -17,7 +18,7 @@ export const StyledHeader = styled.header`
 
 	@media (min-width: 768px) {
 		background-image: url(../assets/bg-header-desktop.png);
-	}
+	}	
 `
 export const Logo = styled.picture`
 	width: 25vw;

@@ -2,6 +2,7 @@ import { StyledHeader, Logo, Title, Text } from "./styles/Header.styled";
 import {ButtonsBox, CyanButton, BlueButton } from "./styles/Button.styled";
 import { logo } from "../assets";
 
+
 const Header = () => (
 	<StyledHeader>
 		<Logo>

@@ -79,45 +79,40 @@ export const clients = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
-    links: [
-      {
-        name: "FAQs",
-        link: "",
-      },
-      {
-        name: "Contact Us",
-        link: "",
-      },
-      {
-        name: "Privacy Policy",
-        link: "",
-      },
-      {
-        name: "Press Kit",
-        link: "",
-      },
-      {
-        name: "Install Guide",
-        link: "",
-      },
-    ],
-  }
+    name: "FAQs",
+    link: "",
+  },
+  {
+    name: "Contact Us",
+    link: "",
+  },
+  {
+    name: "Privacy Policy",
+    link: "",
+  },
+  {
+    name: "Press Kit",
+    link: "",
+  },
+  {
+    name: "Install Guide",
+    link: "",
+  },
 ];
 
 export const socialMedia = [
   {
-    id: "social-media-2",
+    id: "social-media-1",
     icon: iconFacebook,
     link: "https://www.facebook.com/",
   },
   {
-    id: "social-media-3",
+    id: "social-media-2",
     icon: iconTwitter,
     link: "https://www.twitter.com/",
   },
   {
-    id: "social-media-1",
+    id: "social-media-3",
     icon: iconInstagram,
     link: "https://www.instagram.com/",
   }

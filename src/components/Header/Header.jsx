@@ -1,6 +1,6 @@
-import { StyledHeader, Logo, Title, Text } from "./styles/Header.styled";
-import {ButtonsBox, CyanButton, BlueButton } from "./styles/Button.styled";
-import { logo } from "../assets";
+import { StyledHeader, Logo, Title, Text } from "./Header.styled";
+import {ButtonsBox, CyanButton, BlueButton } from "../Button/Button.styled";
+import { logo } from "../../assets";
 
 
 const Header = () => (

@@ -1,5 +1,5 @@
-import { StyledDownload, Title, Text } from "./styles/Download.styled";
-import { ButtonsBox, CyanButton, BlueButton } from "./styles/Button.styled";
+import { StyledDownload, Title, Text } from "./Download.styled";
+import { ButtonsBox, CyanButton, BlueButton } from "../Button/Button.styled";
 
 const Download = () => (
 	<StyledDownload>

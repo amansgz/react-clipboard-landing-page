@@ -1,5 +1,5 @@
-import { StyledAccess, Title, Text, Image } from "./styles/Access.styled";
-import { imgDevices } from "../assets";
+import { StyledAccess, Title, Text, Image } from "./Access.styled";
+import { imgDevices } from "../../assets";
 
 const Access = () => (
 

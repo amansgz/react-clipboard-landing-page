@@ -1,6 +1,6 @@
-import { StyledSnippets, Title, Text, Image, Container, Snippet, SnippetTitle, SnippetText } from "./styles/Snippets.styled";
-import { imgComputer } from "../assets";
-import { snippets } from "../constants";
+import { StyledSnippets, Title, Text, Image, Container, Snippet, SnippetTitle, SnippetText } from "./Snippets.styled";
+import { imgComputer } from "../../assets";
+import { snippets } from "../../constants/index";
 
 const Snippets = () => (
 	<StyledSnippets>

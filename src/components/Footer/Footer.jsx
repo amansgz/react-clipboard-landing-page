@@ -1,6 +1,6 @@
-import { StyledFooter, Logo, ListLinks } from "./styles/Footer.styled";
-import { logo } from "../assets";
-import SocialLinks from "./SocialLinks";
+import { StyledFooter, Logo, ListLinks } from "./Footer.styled";
+import { logo } from "../../assets";
+import SocialLinks from "../SocialLinks/SocialLinks";
 
 
 const Footer = () => (

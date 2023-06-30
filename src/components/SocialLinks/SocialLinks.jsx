@@ -1,7 +1,7 @@
-import { ListSocialLinks } from "./styles/SocialLinks.styled";
-import Facebook from "./SocialIcons/Facebook";
-import Twitter from "./SocialIcons/Twitter";
-import Instagram from "./SocialIcons/Instagram";
+import { ListSocialLinks } from "./SocialLinks.styled";
+import Facebook from "../SocialIcons/Facebook";
+import Twitter from "../SocialIcons/Twitter";
+import Instagram from "../SocialIcons/Instagram";
 
 const SocialLinks = () => (
 	<div>

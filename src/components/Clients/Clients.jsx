@@ -1,6 +1,6 @@
-import { StyledClients, Logo } from "./styles/Clients.styled";
-import { logoGoogle, logoHp, logoIbm, logoMicrosoft, logoVectorGraphics } from "../assets";
-import { clients } from "../constants";
+import { StyledClients, Logo } from "./Clients.styled";
+import { logoGoogle, logoHp, logoIbm, logoMicrosoft, logoVectorGraphics } from "../../assets";
+import { clients } from "../../constants/index";
 
 const Clients = () => (
 	<StyledClients>

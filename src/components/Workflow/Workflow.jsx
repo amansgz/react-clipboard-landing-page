@@ -1,5 +1,5 @@
-import { StyledWorkflow, Title, Text, Icon, Feature, FeatureTitle, FeatureText } from "./styles/Workflow.styled";
-import { features } from "../constants";
+import { StyledWorkflow, Title, Text, Icon, Feature, FeatureTitle, FeatureText } from "./Workflow.styled";
+import { features } from "../../constants/index";
 
 const Workflow = () => (
 	<StyledWorkflow>

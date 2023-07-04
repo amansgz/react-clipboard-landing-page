@@ -11,6 +11,9 @@ export const StyledClients = styled.section`
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
+	h2 {
+		display: none;
+	}
 `
 export const Logo = styled.picture`
 	width: 40vw;

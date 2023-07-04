@@ -4,6 +4,7 @@ import { clients } from "../../constants/index";
 
 const Clients = () => (
 	<StyledClients>
+		<h2>Clients</h2>
 		{clients.map((client) => (
 			<div key={client.id}>
 				<Logo>

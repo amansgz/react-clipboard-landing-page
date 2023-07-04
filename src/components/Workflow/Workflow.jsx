@@ -1,14 +1,14 @@
-import { StyledWorkflow, Title, Text, Icon, Feature, FeatureTitle, FeatureText } from "./Workflow.styled";
+import { StyledWorkflow, Icon, Feature, FeatureTitle, FeatureText } from "./Workflow.styled";
 import { features } from "../../constants/index";
 
 const Workflow = () => (
 	<StyledWorkflow>
-		<Title>
+		<h2>
 	  	Supercharge your workflow
-	  </Title>
-	  <Text>
+	  </h2>
+	  <p>
 	  	We’ve got the tools to boost your productivity.
-	  </Text>	
+	  </p>	
 
 	  <div>
 		  {features.map((feature) => (

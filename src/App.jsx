@@ -9,11 +9,13 @@ import Footer from "./components/Footer/Footer";
 const App = () => (
   <>
     <Header />
-    <Snippets />
-    <Access />
-    <Workflow />
-    <Clients />
-    <Download />
+    <main>
+      <Snippets />
+      <Access />
+      <Workflow />
+      <Clients />
+      <Download />
+    </main>  
     <Footer />
   </>
 );

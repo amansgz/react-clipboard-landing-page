@@ -1,17 +1,17 @@
-import { StyledSnippets, Title, Text, Image, Container, Snippet, SnippetTitle, SnippetText } from "./Snippets.styled";
+import { StyledSnippets, Image, Container, Snippet } from "./Snippets.styled";
 import { imgComputer } from "../../assets";
 import { snippets } from "../../constants/index";
 
 const Snippets = () => (
 	<StyledSnippets>
-		<Title>
+		<h2>
 			Keep track of your snippets			
-		</Title>
-		<Text>
+		</h2>
+		<p>
 			Clipboard instantly stores any item you copy in the cloud, 
 		  meaning you can access your snippets immediately on all your 
 		  devices. Our Mac and iOS apps will help you organize everything.		
-		</Text>
+		</p>
 
 		<Container>
 			<Image>
@@ -21,12 +21,12 @@ const Snippets = () => (
 			<div>
 			  {snippets.map((snippet) => (
 					<Snippet key={snippet.id}>
-						<SnippetTitle>
+						<h3>
 							{snippet.title}
-						</SnippetTitle>
-						<SnippetText>
+						</h3>
+						<p>
 							{snippet.content}
-						</SnippetText>
+						</p>
 					</Snippet>	
 				))}
 			</div>	

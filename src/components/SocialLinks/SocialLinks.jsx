@@ -7,19 +7,19 @@ const SocialLinks = () => (
 	<div>
 		<ListSocialLinks>
 			<li>
-				<a href="" aria-label="Go to Facebook">
+				<a href="#" aria-label="Go to Facebook">
 					<Facebook />
 				</a>
 			</li>		
 
 			<li>
-				<a href="" aria-label="Go to Twitter">
+				<a href="#" aria-label="Go to Twitter">
 					<Twitter />
 				</a>
 			</li>
 
 			<li>
-				<a href="" aria-label="Go to Instagram">
+				<a href="#" aria-label="Go to Instagram">
 					<Instagram />
 				</a>
 			</li>

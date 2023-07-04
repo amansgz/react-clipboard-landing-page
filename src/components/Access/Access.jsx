@@ -1,19 +1,19 @@
-import { StyledAccess, Title, Text, Image } from "./Access.styled";
+import { StyledAccess } from "./Access.styled";
 import { imgDevices } from "../../assets";
 
 const Access = () => (
 
   <StyledAccess>
-    <Title>
+    <h2>
       Access Clipboard anywhere  
-    </Title>
-    <Text>
+    </h2>
+    <p>
       Whether you’re on the go, or at your computer, you can access all your Clipboard 
       snippets in a few simple clicks.
-    </Text>  
-    <Image>
+    </p>  
+    <picture>
       <img src= {imgDevices} alt="devices"/>
-    </Image>
+    </picture>
   </StyledAccess>
 );
 

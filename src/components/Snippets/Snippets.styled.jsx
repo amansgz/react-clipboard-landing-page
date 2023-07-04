@@ -12,14 +12,14 @@ export const StyledSnippets = styled.section`
 		padding: 3em 0;
 		overflow: hidden;
 	}	
-`
-export const Title = styled.h2`
-	width: 60vw;
-`
-export const Text = styled.p`
-	width: 82vw;
-	max-width: 685px;
-	padding: 1em 0;
+	h2 {
+		width: 60vw;	
+	}
+	p {
+		width: 82vw;
+		max-width: 685px;
+		padding: 1em 0;
+	}
 `
 
 export const Container = styled.div `
@@ -64,23 +64,23 @@ export const Snippet = styled.article`
 		@media (min-width: 768px) {
 			padding-left: 7em;
 		}
-`
 
-export const SnippetTitle = styled.h3`
-	padding: .5em;
+	h3 {
+		padding: .5em;
 
-	@media (min-width: 768px) {
-		align-self: start;
-		padding-left: 0;
-	}
-`
+		@media (min-width: 768px) {
+			align-self: start;
+			padding-left: 0;
+		}
+	}	
+	p {
+		width: 82vw;
+		max-width: 398px;
 
-export const SnippetText = styled.p`
-	width: 82vw;
-	max-width: 398px;
+		@media (min-width: 768px) {
+			text-align: left;
+			align-self: start;
+		}
+	}	
 
-	@media (min-width: 768px) {
-		text-align: left;
-		align-self: start;
-	}
 `

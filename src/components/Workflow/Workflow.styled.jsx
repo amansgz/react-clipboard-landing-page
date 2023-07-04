@@ -8,6 +8,14 @@ export const StyledWorkflow = styled.section`
 	padding: 3em 2em;
 	text-align: center;
 
+	h2 {
+		width: 60vw;	
+	}
+	p {
+		width: 80vw;
+		max-width: 675px;
+		padding: 1em 0;
+	}
 	div {
 		@media (min-width: 768px) {
 			display: flex;
@@ -17,14 +25,6 @@ export const StyledWorkflow = styled.section`
 			margin: 2em 0;
 		}		
 	}
-`
-export const Title = styled.h2`
-	width: 60vw;
-`
-export const Text = styled.p`
-	width: 80vw;
-	max-width: 675px;
-	padding: 1em 0;
 `
 export const Feature = styled.article`
 	display: flex;

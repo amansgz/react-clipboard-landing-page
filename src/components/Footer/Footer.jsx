@@ -10,28 +10,28 @@ const Footer = () => (
 		</Logo>
 		
   	<ListLinks>
-      <div>
+      <ul>
     		<li>
     			<a href="#">FAQs</a>
     		</li>
     			<li>
     			<a href="#">Contact Us</a>
     		</li>
-    	</div>
+    	</ul>
 
-    	<div>
+    	<ul>
     		<li>
     			<a href="#">Privacy Policy</a>
     		</li>
     			<li>
     			<a href="#">Press Kit</a>
     		</li>
-    	</div>
-    	<div>
+    	</ul>
+    	<ul>
     		<li>
     			<a href="#">Install Guide</a>
     		</li>
-    	</div>
+    	</ul>
     </ListLinks>
 
     <SocialLinks />

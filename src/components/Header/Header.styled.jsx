@@ -19,18 +19,19 @@ export const StyledHeader = styled.header`
 	@media (min-width: 768px) {
 		background-image: url(../assets/bg-header-desktop.png);
 	}	
+
+	h1 {
+		width: 75vw;
+		font-weight: 600;
+	}
+	p {
+		width: 82vw;
+		max-width: 605px;
+		padding: 1em 0;
+	}
 `
 export const Logo = styled.picture`
 	width: 25vw;
 	max-width: 160px;
 	padding: 3em 0;
-`
-export const Title = styled.h1`
-	width: 75vw;
-	font-weight: 600;
-`
-export const Text = styled.p`
-	width: 82vw;
-	max-width: 605px;
-	padding: 1em 0;
 `

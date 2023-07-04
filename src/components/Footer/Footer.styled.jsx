@@ -23,7 +23,7 @@ export const Logo = styled.picture`
 	margin: 1em;
 `
 
-export const ListLinks = styled.ul`
+export const ListLinks = styled.div`
 	@media (min-width: 768px) {
 		display: flex;
 		text-align: left;

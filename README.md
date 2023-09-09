@@ -1,4 +1,4 @@
-# 👩‍💻 Clipboard landing page solution
+# 👩‍💻 Clipboard landing page 
 
 ## The challenge
 

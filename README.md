@@ -1,11 +1,8 @@
-# 👩‍💻 Frontend Mentor - Clipboard landing page solution
-
-Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-This is a solution for [Clipboard landing page](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9) challenge.
-
+# 👩‍💻 Clipboard landing page solution
 
 ## The challenge
+
+The challenge is to build out this landing page and get it looking as close to the design as possible.
 
 Users should be able to:
 
@@ -19,12 +16,18 @@ Users should be able to:
 - Styled-components
 - Mobile-first workflow
 
-## Live site solution
+<div>
+  <h3>
+    <a href= "https://react-clipboard-landing-page.netlify.app/">
+      Live site
+    </a>
+    <span> | </span>
+    <a href= "https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-[Live site](https://react-clipboard-landing-page.netlify.app/) hosted on Netlify.
+![Design preview for the Order summary card coding challenge]()
 
-## Author
-
-- Frontend Mentor - [@amansgz](https://www.frontendmentor.io/profile/amansgz)
-
-Join to [Frontend Mentor Discord community](https://discord.gg/UAfh3qzhYb)
+This application/site was created as a submission to <a href= "https://www.frontendmentor.io/">Frontend Mentor Challenges</a> 
